@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap 5 Website Observatory</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      position: relative;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="p-5 bg-black text-white text-center">
+    <p></p>
+    <br/>
+    <h1>Planetarium dan Observatorium di Indonesia</h1>
+  </div>
+</body>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <a class="navbar-brand" href="#">
+          <img src="Images/logo.jpg" alt="Logo" style="width:50px;" class="rounded-pill">
+        </a>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#obsBosscha-section">Observatorium Bosscha</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#PltJkt-section">Planetarium Jakarta</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pltJrt-section">Planetarium Jagad Raya</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#obsTimau-section">Observatorium Nasional Timau</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/0. Footer - b.jpg" alt="Sky Stars" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Sky Stars</h3>
+          <p>The sky is filled with stars, invisible by day!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/0. Footer - d.jpg" alt="Moon" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Moon</h3>
+          <p>Never judge the moon by gazing the stars</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/For_Carousel.jpg" alt="Starry Night" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Starry Night</h3>
+          <p>When it is dark enough, you can see the stars!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Page 1 -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>About Me</h2>
+        <h5>Photo of me:</h5>
+        <img src="Images/Me.jpeg" class="img-thumbnail" alt="me" width="304" height="100">
+        <p>Roro Ayu Fasha Dewatri</p>
+        <p>S1 Tenik Informatika</p>
+        <p>Universitas Negeri Surabaya</p>
+        <img src="Images/ForHome_v2.jpg" class="img-thumbnail" alt="Observatorium" width="304" height="236">
+        <h3 class="mt-4">Some Links</h3>
+        <p>Beberapa link website dan berita Observatorium</p>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="https://bosscha.itb.ac.id/id/">Bosscha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://id.wikipedia.org/wiki/Planetarium_Jagad_Raya_Tenggarong">JRT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https://www.lapan.go.id/post/6597/observatorium-di-ntt-rampung-2021-terbesar-di-asia-tenggara">Timau</a>
+          </li>
+        </ul>
+        <hr class="d-sm-none">
+      </div>
+      <div class="col-sm-8">
+        <h2>Planetarium dan Observatorium</h2>
+        <h5>Perbedaan Observatorium dengan Planetarium</h5>
+        <img src="Images/fotoobs.webp" class="img-thumbnail" alt="">
+        <p>Umumnya planetarium dan observatorium memang dikenal sama yaitu sebagai tempat yang menyediakan alat-alat
+          yang berguna untuk mempelajari antariksa. Meskipun kegunaan dua tempat ini memang sama, namun planetarium dan
+          observatorium itu adalah 2 tempat yang berbeda.</p>
+        <p>Planetarium merupakan tempat yang digunakan untuk memperagakan simulasi pergerakan bintang. Atap planetarium
+          biasanya berbentuk setengah lingkaran, berfungsi untuk melihat pergerakan benda langit yang ditampilkan dari
+          proyektor di tengah bangunan. Di planetarium, penonton dapat berupaya bisa mengenai pergerakan benda-benda
+          langit di malam hari dari bermacam tempat di bumi dan sejarah dunia semesta.</p>
+        <p>Sementara Observatorium adalah tempat di mana kita bisa mengamati benda dan peristiwa langit secara langsung
+          menggunakan teleskop yang terpasang secara permanen di bangunan observatorium. Atap kubah observatorium
+          berbentuk kubah seperti planetarium, tetapi bisa berputar untuk mengamati langit yang sangat luas. Selain itu,
+          Observatorium tidak boleh dibangun di sembarang tempat. Bangunan ini harus dibangun di tempat yang tepat
+          dengan cuaca yang baik, suhu yang sedang, banyak hari cerah dan malam - malam tanpa awan, serta sesedikit
+          mungkin kabut, hujan, dan salju. Observatorium juga harus jauh dari lampu – lampu kota dan tanda – tanda dari
+          lampu neon, yang membuat langit terlalu terang. Tujuan dari kriteria-kriteria tersebut adalah agar pengamatan
+          benda dan peristiwa langit bisa dilakukan dengan jelas.</p>
+
+        <h2 class="mt-5">Deskripsi</h2>
+        <div class="row">
+          <div class="col">
+            <img src="Images/SectionHome_v1.webp" class="img-thumbnail" alt="">
+            <img src="Images/SectionHome_v2.webp" class="img-thumbnail" alt="">
+            <p>Indonesia sendiri memiliki planetarium dan observatorium yang tersebar di beberapa kota. Tidak banyak
+              memang,
+              dikarenakan peralatan yang cukup sulit dan kriteria tempat yang tepat untuk membangunnya.</p>
+            <p>Diketahui terdapat 4 tempat planetarium dan observatorium yang dibangun di Indonesia. Untuk melihat
+              rinciannya,
+              dapat scroll ke bawah atau klik menu di atas.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Page 2 sampai 5 -->
+      <div class="card customer-cards">
+        <div class="card-body">
+          <div class="container">
+            <section class="obsBosscha-overview" id="obsBosscha-section">
+              <div class="text-center">
+                <h3>Observatorium Bosscha, Bandung</h3>
+                <img src="Images/Observatorium-Bosscha.jpg" alt="" class="rounded">
+                <p class="m-0 py-3 text-muted">Observatorium pertama dan paling tua di Indonesia, Observatorium Bosscha.
+                  Terletak di Lembang, Bandung, Observatorium ini memiliki teleskop dengan diameter 60cm.</p>
+                <p>Observatorium Bosscha (dahulu bernama Bosscha Sterrenwacht) dibangun oleh Nederlandsch-Indische
+                  Sterrenkundige Vereniging (NISV) atau Perhimpunan Astronomi Hindia Belanda.</p>
+                <p>Pembangunan observatorium ini sendiri menghabiskan waktu kurang lebih 5 tahun sejak tahun 1923 sampai
+                  dengan tahun 1928. Publikasi internasional pertama Observatorium Bosscha dilakukan pada tahun 1933.
+                  Namun
+                  kemudian observasi terpaksa dihentikan dikarenakan sedang berkecamuknya Perang Dunia II. Setelah
+                  perang
+                  usai, dilakukan renovasi besar-besaran pada observatorium ini karena kerusakan akibat perang hingga
+                  akhirnya
+                  observatorium dapat beroperasi dengan normal kembali. Kemudian pada tanggal 17 Oktober 1951, NISV
+                  menyerahkan observatorium ini kepada pemerintah RI. Setelah Institut Teknologi Bandung (ITB) berdiri
+                  pada
+                  tahun 1959, Observatorium Bosscha kemudian menjadi bagian dari ITB. Dan sejak saat itu, Bosscha
+                  difungsikan
+                  sebagai lembaga penelitian dan pendidikan formal Astronomi di Indonesia.</p>
+                <div class="content-divider m-auto"></div>
+              </div>
+          </div>
+        </div>
+        <div class="card customer-cards">
+          <div class="card-body">
+            <div class="container">
+              <section class="PltJkt-overview" id="PltJkt-section">
+                <div class="text-center">
+                  <h3>Planetarium dan Observatorium Jakarta</h3>
+                  <img src="Images/Planetarium-Jakarta.jpg" alt="" class="rounded">
+                  <p class="m-0 py-3 text-muted">Jika ada observatorium tertua di Bandung, Observatorium Bosscha, maka
+                    ada
+                    pula
+                    Planetarium tertua. Planetarium tertua ini letaknya di Taman Ismail Marzuki, Jakarta Pusat. Dikenal
+                    pula
+                    dengan sebutan Planetarium Jakarta.</p>
+                  <p>Planetarium Jakarta merupakan sarana wisata pendidikan yang dapat menyajikan pertunjukan / peragaan
+                    simulasi perbintangan atau benda-benda langit. Pengunjung diajak mengembara di jagat raya untuk
+                    memahami
+                    konsepsi tentang alam semesta melalui acara demi acara</p>
+                  <p>Planetarium Jakarta berdiri tahun 1964 diprakarsai Presiden Soekarno dan diserahkan ke Pemerintah
+                    Provinsi
+                    DKI Jakarta pada 1969. Di tempat ini juga tersedia ruang pameran benda- benda angkasa yang
+                    menyuguhkan
+                    berbagai foto serta keterangan lengkap dari berbagai bentuk galaksi, teori-teori pembentukan galaksi
+                    disertai pengenalan tokoh-tokoh di balik munculnya teori. Di ruang pameran ini, ada juga pajangan
+                    baju
+                    antariksa yang digunakan mengarungi angkasa, termasuk mendarat
+                    di bulan. Beberapa peralatan lain untuk pengamatan antariksa turut dipamerkan.</p>
+                  <div class="content-divider m-auto"></div>
+                </div>
+            </div>
+          </div>
+          <div class="card customer-cards">
+            <div class="card-body">
+              <div class="container">
+                <section class="pltJrt-overview" id="pltJrt-section">
+                  <div class="text-center">
+                    <h3>Planetarium Jagad Raya Tenggarong</h3>
+                    <img src="Images/Planetarium_Jagad_Raya_Tenggarong.jpg" width="700" height="500" alt=""
+                      class="rounded">
+                    <p class="m-0 py-3 text-muted">Salah satu Planetarium yang dimiliki di Indonesia, Planetarium Jagad
+                      Raya
+                      Tenggarong. Meski tidak sebesar Planetarium Jakarta, namun planetarium ini juga tidak kalah dalam
+                      memberikan
+                      fasilitas untuk lebih mengenal dunia antariksa. Planetarium ini terletak di Kutai, Kalimantan
+                      Timur.
+                    </p>
+                    <p>Tempat ini merupakan sarana wisata pendidikan untuk menikmati keindahan alam semesta berupa
+                      bintang-bintang, planet dan objek-objek langit lainnya. Planetarium ini merupakan tempat Teater
+                      Bintang atau
+                      teater alam, karena dapat memperlihatkan isi alam semesta serta susunannya. Alat peraga yang
+                      digunakan
+                      berupa Proyektor Skymaster ZKP 3 buatan perusahaan Carl Zeiss Jerman, dengan tinggi maksimum 2750
+                      mm
+                      dan
+                      berat mencapai 250 kg, lensa yang dimilikinya adalah 100 lensa. Memproyeksikan gambar matahari,
+                      bulan,
+                      komet, meteor, bintang, rasi, galaksi dan lain-lain. Selain proyektor utama, pada Skymaster ZKP 3
+                      juga
+                      terdapat pendukung lainnya berupa proyektor effect dan 8 buah proyektor slide yang berfungsi untuk
+                      memproyeksikan gambar.</p>
+                    <div class="content-divider m-auto"></div>
+                  </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="container">
+                  <section class="obsTimau-overview" id="obsTimau-section">
+                    <div class="text-center">
+                      <h3>Observatorium Nasional Timau</h3>
+                      <img src="Images/Observatorium Timau.jpg" alt="" class="rounded">
+                      <p class="m-0 py-3 text-muted">Observatorium baru yang mulai dibangun pada tahun 2017 di
+                        Indonesia.
+                        Diperkirakan akan selesai di tahun 2021 dan akan menjadi observatorium terbesar di Asia
+                        Tenggara.
+                      </p>
+                      <p>Observatorium yang berada dalam wilayah Cagar Alam Gunung Timau, Nusa Tenggara Timur ini memang
+                        masih dalam
+                        tahap penyelesaian, namun tak ada salahnya untuk Anda jadikan sebagai daftar Observatorium di
+                        Indonesia yang
+                        wajib dikunjungi. Observatorium ini dikelilingi oleh wilayah yang sangat terjaga sehingga bisa
+                        meminimalisir
+                        polusi cahaya.</p>
+                      <p>Observatorium Timau ini akan dikelola oleh Lembaga Penerbangan dan Antariksa Nasional atau yang
+                        biasa
+                        disingkat LAPAN dan menjadi observatorium pengganti dari Observatorium Bosscha yang rencananya
+                        tidak
+                        banyak
+                        dioperasikan lagi. Indonesia memang berpotensi memiliki Taman Nasional Langit Gelap sehingga
+                        Anda
+                        bisa
+                        menikmati langit pada malam hari tanpa khawatir akan polusi cahaya. Mengutip dari GNFI, walau
+                        tak
+                        berada tepat di garis Khatulistiwa, jarak Gunung Timau "lebih dekat" dengan
+                        langit karena bentuk bumi membesar di bagian Khatulistiwa. Observatorium yang dimiliki
+                        Australia,
+                        misalnya,
+                        hanya dapat melihat tata surya dari bagian selatan, sedang Observatorium Jepang dan Amerika
+                        hanya
+                        melihat
+                        tata surya dari bagian utara saja.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+</body>
+
+<body>
+  <div class="bg-dark text-white text-center">
+    <p>Pemrograman Web</p>
+  </div>
+</body>
+
+</html>
